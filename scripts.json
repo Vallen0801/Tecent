@@ -1,0 +1,49 @@
+{
+  "scripts": [
+    {
+      "id": "scr_sku123_0",
+      "hook": "最近用了这个，效果挺让我惊喜。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "温和可信",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "scr_sku123_1",
+      "hook": "性价比超高，值得一试。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "中性推荐",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "scr_sku123_2",
+      "hook": "真心推荐，尤其适合你们。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "情绪化种草",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

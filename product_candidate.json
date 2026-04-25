@@ -1,0 +1,22 @@
+{
+  "id": "sku123",
+  "name": "护肤X霜（敏感型）",
+  "brand": "小众牌A",
+  "price": 79.0,
+  "source_tag": "护肤",
+  "evidence": [
+    {
+      "type": "ecom_trend",
+      "text": "近30天搜索↑45%",
+      "url": ""
+    }
+  ],
+  "supply_signals": {
+    "can_sample": true,
+    "sample_time_days": 5,
+    "inventory": 800,
+    "lead_time_days": 3
+  },
+  "margin_pct": 0.35,
+  "brand_score": 78
+}

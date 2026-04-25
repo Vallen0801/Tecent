@@ -1,0 +1,338 @@
+{
+  "meta": {
+    "generated_at": "2026-04-25T02:21:01.781128+00:00"
+  },
+  "module_A_koc_profile": {
+    "id": "koc_demo_001",
+    "name": "Demo KOC",
+    "style_vector": {
+      "Humor": {
+        "val": 45.0,
+        "conf": 0.5
+      },
+      "Emotionality": {
+        "val": 50.0,
+        "conf": 0.5
+      },
+      "Rationality": {
+        "val": 26.7,
+        "conf": 0.5
+      },
+      "Pace": {
+        "val": 58.3,
+        "conf": 0.5
+      },
+      "Spontaneity": {
+        "val": 71.7,
+        "conf": 0.5
+      }
+    },
+    "capability": {
+      "shoot": 60,
+      "edit": 50,
+      "improv": 40
+    },
+    "preferences": {
+      "categories": [
+        "护肤",
+        "美妆"
+      ],
+      "price_range": "low"
+    },
+    "consent_flags": {
+      "orders": false,
+      "followers": false
+    },
+    "created_at": "2026-04-25T02:20:52.308499+00:00"
+  },
+  "module_B_audience_profile": {
+    "koc_id": "koc_demo_001",
+    "segments": [
+      {
+        "id": "s_demo",
+        "label": "默认年轻女性",
+        "age_range": [
+          18,
+          34
+        ],
+        "gender": "F",
+        "interest_tags": [
+          "护肤",
+          "美妆"
+        ],
+        "conf": 0.45,
+        "sample_size": 80
+      }
+    ],
+    "suggested_test_plan": "Run 2 variants in private group, 500 impressions each"
+  },
+  "module_C_candidates": [
+    {
+      "id": "sku123",
+      "name": "护肤X霜（敏感型）",
+      "brand": "小众牌A",
+      "price": 79.0,
+      "source_tag": "护肤",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ],
+      "supply_signals": {
+        "can_sample": true,
+        "sample_time_days": 5,
+        "inventory": 800,
+        "lead_time_days": 3
+      },
+      "margin_pct": 0.35,
+      "brand_score": 78,
+      "supply_score": 65.9,
+      "audience_match_score": 100.0,
+      "rank_score": 80.6
+    }
+  ],
+  "module_D_scripts": [
+    {
+      "id": "scr_sku123_0",
+      "hook": "最近用了这个，效果挺让我惊喜。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "温和可信",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "scr_sku123_1",
+      "hook": "性价比超高，值得一试。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "中性推荐",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "scr_sku123_2",
+      "hook": "真心推荐，尤其适合你们。",
+      "body": "产品：护肤X霜（敏感型），价格79.0元，卖点：近30天搜索↑45%",
+      "cta": "点击链接了解/私信拿优惠",
+      "style_label": "情绪化种草",
+      "target_segment": "s_demo",
+      "evidence": [
+        {
+          "type": "ecom_trend",
+          "text": "近30天搜索↑45%",
+          "url": ""
+        }
+      ]
+    }
+  ],
+  "module_E_material": {
+    "storyboard": [
+      {
+        "start": 0,
+        "end": 20,
+        "action": "钩子",
+        "camera": "近景",
+        "dialogue": "第1段示例台词",
+        "cues": "表情"
+      },
+      {
+        "start": 20,
+        "end": 40,
+        "action": "核心卖点",
+        "camera": "中景",
+        "dialogue": "第2段示例台词",
+        "cues": "展示细节"
+      },
+      {
+        "start": 40,
+        "end": 60,
+        "action": "结尾CTA",
+        "camera": "特写",
+        "dialogue": "第3段示例台词",
+        "cues": "强调CTA"
+      }
+    ],
+    "subtitles": [
+      {
+        "index": 1,
+        "start": "00:00:00",
+        "end": "00:00:20",
+        "text": "第1段示例台词"
+      },
+      {
+        "index": 2,
+        "start": "00:00:20",
+        "end": "00:00:40",
+        "text": "第2段示例台词"
+      },
+      {
+        "index": 3,
+        "start": "00:00:40",
+        "end": "00:00:60",
+        "text": "第3段示例台词"
+      }
+    ],
+    "cut_list": [
+      {
+        "start": 0,
+        "end": 20,
+        "reason": "钩子",
+        "replace_with": "b-roll_closeup"
+      },
+      {
+        "start": 20,
+        "end": 40,
+        "reason": "核心卖点",
+        "replace_with": "b-roll_closeup"
+      },
+      {
+        "start": 40,
+        "end": 60,
+        "reason": "结尾CTA",
+        "replace_with": "b-roll_closeup"
+      }
+    ],
+    "makeup_plan": {
+      "level": "推荐",
+      "steps": [
+        "清洁",
+        "保湿",
+        "轻薄粉底",
+        "自然腮红"
+      ],
+      "color_palette": [
+        "#F2C1C1",
+        "#FFF6EA"
+      ],
+      "confidence": 0.78
+    },
+    "covers": [
+      {
+        "url": "cover1.png",
+        "prompt": "面部特写+大字钩子",
+        "ctr_score": 0.12,
+        "uncertainty": 0.03
+      }
+    ],
+    "variants": [
+      {
+        "id": "v1",
+        "desc": "快节奏钩子"
+      },
+      {
+        "id": "v2",
+        "desc": "慢节奏讲解"
+      }
+    ]
+  },
+  "module_F_publish_plan": {
+    "primary_time": "2026-04-25T20:00:56.570496+00:00",
+    "backup_time": "2026-04-25T12:00:56.570496+00:00",
+    "channel": "视频号",
+    "frequency_per_week": 3,
+    "tags": [
+      "护肤",
+      "敏感肌"
+    ],
+    "reason": "目标受众晚间活跃，历史相似案例完成率高"
+  },
+  "module_G_activity": {
+    "activity_id": "act_1777052783",
+    "type": "reply_lottery",
+    "title": "评论抽奖-试用",
+    "trigger": {
+      "time_window_hours": 1,
+      "keyword": "#我想试",
+      "start_time": "2026-04-25T01:46:23.125706"
+    },
+    "reward": {
+      "type": "sample",
+      "quantity": 5
+    },
+    "eligibility": {
+      "min_followers": 0
+    },
+    "automation": {
+      "auto_collect": true
+    },
+    "status": "active"
+  },
+  "module_H_replay": {
+    "asset_id": "demo_asset_001",
+    "metrics": {
+      "views": 5000,
+      "completion_rate": 0.32,
+      "clicks": 120,
+      "conversions": 12
+    },
+    "factor_contribution": [
+      {
+        "factor": "hook",
+        "impact": 0.4
+      },
+      {
+        "factor": "cover",
+        "impact": 0.3
+      },
+      {
+        "factor": "cta",
+        "impact": 0.3
+      }
+    ],
+    "actions": [
+      {
+        "action": "保留hook变体",
+        "confidence": 0.8
+      },
+      {
+        "action": "替换封面尝试AIGC",
+        "confidence": 0.6
+      }
+    ]
+  },
+  "module_I_business_package": {
+    "koc_id": "koc_demo_001",
+    "candidate_id": "sku123",
+    "summary": {
+      "expected_reach": 5000,
+      "expected_conversion_range": [
+        10,
+        30
+      ]
+    },
+    "cases": [
+      {
+        "case": "相似KOC转化3.2%",
+        "link": ""
+      }
+    ],
+    "price_suggestion": {
+      "type": "cpm_or_cpa",
+      "suggested_min": 500
+    },
+    "notes": "含样品/流量包建议"
+  },
+  "module_J_audit": {
+    "asset": "demo_asset_001",
+    "audit": {
+      "status": "pass",
+      "issues": []
+    },
+    "timestamp": "2026-04-25T02:21:01.108908+00:00"
+  }
+}

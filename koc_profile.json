@@ -1,0 +1,43 @@
+{
+  "id": "koc_demo_001",
+  "name": "Demo KOC",
+  "style_vector": {
+    "Humor": {
+      "val": 45.0,
+      "conf": 0.5
+    },
+    "Emotionality": {
+      "val": 50.0,
+      "conf": 0.5
+    },
+    "Rationality": {
+      "val": 26.7,
+      "conf": 0.5
+    },
+    "Pace": {
+      "val": 58.3,
+      "conf": 0.5
+    },
+    "Spontaneity": {
+      "val": 71.7,
+      "conf": 0.5
+    }
+  },
+  "capability": {
+    "shoot": 60,
+    "edit": 50,
+    "improv": 40
+  },
+  "preferences": {
+    "categories": [
+      "护肤",
+      "美妆"
+    ],
+    "price_range": "low"
+  },
+  "consent_flags": {
+    "orders": false,
+    "followers": false
+  },
+  "created_at": "2026-04-25T02:20:52.308499+00:00"
+}

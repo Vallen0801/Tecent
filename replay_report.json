@@ -1,0 +1,33 @@
+{
+  "asset_id": "demo_asset_001",
+  "metrics": {
+    "views": 5000,
+    "completion_rate": 0.32,
+    "clicks": 120,
+    "conversions": 12
+  },
+  "factor_contribution": [
+    {
+      "factor": "hook",
+      "impact": 0.4
+    },
+    {
+      "factor": "cover",
+      "impact": 0.3
+    },
+    {
+      "factor": "cta",
+      "impact": 0.3
+    }
+  ],
+  "actions": [
+    {
+      "action": "保留hook变体",
+      "confidence": 0.8
+    },
+    {
+      "action": "替换封面尝试AIGC",
+      "confidence": 0.6
+    }
+  ]
+}

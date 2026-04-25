@@ -1,0 +1,77 @@
+{
+  "activity.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "audience_profile.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "audit.json": {
+    "encoding": "ascii",
+    "confidence": 1.0,
+    "language": ""
+  },
+  "business_package.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "candidates_list.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "conversion_report.json": {
+    "encoding": "ascii",
+    "confidence": 1.0,
+    "language": ""
+  },
+  "final_package.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "koc_profile.json": {
+    "encoding": "utf-8",
+    "confidence": 0.938125,
+    "language": ""
+  },
+  "material_package.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "product_candidate.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "publish_plan.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "questionnaire.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "recheck_encoding.json": {
+    "encoding": "ascii",
+    "confidence": 1.0,
+    "language": ""
+  },
+  "replay_report.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  },
+  "scripts.json": {
+    "encoding": "utf-8",
+    "confidence": 0.99,
+    "language": ""
+  }
+}

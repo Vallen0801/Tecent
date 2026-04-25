@@ -1,0 +1,22 @@
+{
+  "koc_id": "koc_demo_001",
+  "candidate_id": "sku123",
+  "summary": {
+    "expected_reach": 5000,
+    "expected_conversion_range": [
+      10,
+      30
+    ]
+  },
+  "cases": [
+    {
+      "case": "相似KOC转化3.2%",
+      "link": ""
+    }
+  ],
+  "price_suggestion": {
+    "type": "cpm_or_cpa",
+    "suggested_min": 500
+  },
+  "notes": "含样品/流量包建议"
+}

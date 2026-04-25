@@ -1,0 +1,100 @@
+{
+  "storyboard": [
+    {
+      "start": 0,
+      "end": 20,
+      "action": "钩子",
+      "camera": "近景",
+      "dialogue": "第1段示例台词",
+      "cues": "表情"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "action": "核心卖点",
+      "camera": "中景",
+      "dialogue": "第2段示例台词",
+      "cues": "展示细节"
+    },
+    {
+      "start": 40,
+      "end": 60,
+      "action": "结尾CTA",
+      "camera": "特写",
+      "dialogue": "第3段示例台词",
+      "cues": "强调CTA"
+    }
+  ],
+  "subtitles": [
+    {
+      "index": 1,
+      "start": "00:00:00",
+      "end": "00:00:20",
+      "text": "第1段示例台词"
+    },
+    {
+      "index": 2,
+      "start": "00:00:20",
+      "end": "00:00:40",
+      "text": "第2段示例台词"
+    },
+    {
+      "index": 3,
+      "start": "00:00:40",
+      "end": "00:00:60",
+      "text": "第3段示例台词"
+    }
+  ],
+  "cut_list": [
+    {
+      "start": 0,
+      "end": 20,
+      "reason": "钩子",
+      "replace_with": "b-roll_closeup"
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "reason": "核心卖点",
+      "replace_with": "b-roll_closeup"
+    },
+    {
+      "start": 40,
+      "end": 60,
+      "reason": "结尾CTA",
+      "replace_with": "b-roll_closeup"
+    }
+  ],
+  "makeup_plan": {
+    "level": "推荐",
+    "steps": [
+      "清洁",
+      "保湿",
+      "轻薄粉底",
+      "自然腮红"
+    ],
+    "color_palette": [
+      "#F2C1C1",
+      "#FFF6EA"
+    ],
+    "confidence": 0.78
+  },
+  "covers": [
+    {
+      "url": "cover1.png",
+      "prompt": "面部特写+大字钩子",
+      "ctr_score": 0.12,
+      "uncertainty": 0.03
+    }
+  ],
+  "variants": [
+    {
+      "id": "v1",
+      "desc": "快节奏钩子"
+    },
+    {
+      "id": "v2",
+      "desc": "慢节奏讲解"
+    }
+  ]
+}

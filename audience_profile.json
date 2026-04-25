@@ -1,0 +1,21 @@
+{
+  "koc_id": "koc_demo_001",
+  "segments": [
+    {
+      "id": "s_demo",
+      "label": "默认年轻女性",
+      "age_range": [
+        18,
+        34
+      ],
+      "gender": "F",
+      "interest_tags": [
+        "护肤",
+        "美妆"
+      ],
+      "conf": 0.45,
+      "sample_size": 80
+    }
+  ],
+  "suggested_test_plan": "Run 2 variants in private group, 500 impressions each"
+}

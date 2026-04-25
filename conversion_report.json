@@ -1,0 +1,62 @@
+{
+  "activity.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "audience_profile.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "audit.json": {
+    "status": "converted",
+    "used_encoding": "ascii"
+  },
+  "business_package.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "candidates_list.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "conversion_report.json": {
+    "status": "converted",
+    "used_encoding": "ascii"
+  },
+  "final_package.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "koc_profile.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "material_package.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "product_candidate.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "publish_plan.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "questionnaire.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "recheck_encoding.json": {
+    "status": "converted",
+    "used_encoding": "ascii"
+  },
+  "replay_report.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  },
+  "scripts.json": {
+    "status": "converted",
+    "used_encoding": "utf-8"
+  }
+}

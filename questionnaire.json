@@ -1,0 +1,309 @@
+{
+  "title": "KOC 风格自评问卷（快速版，6题）",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "当你上镜讲内容时，你更偏向哪种方式？",
+      "options": [
+        {
+          "id": "q1a",
+          "text": "讲故事/生活化",
+          "scores": {
+            "Humor": 10,
+            "Emotionality": 70,
+            "Rationality": 20,
+            "Pace": 40,
+            "Spontaneity": 50
+          }
+        },
+        {
+          "id": "q1b",
+          "text": "讲数据/功能",
+          "scores": {
+            "Humor": 5,
+            "Emotionality": 20,
+            "Rationality": 80,
+            "Pace": 40,
+            "Spontaneity": 30
+          }
+        },
+        {
+          "id": "q1c",
+          "text": "幽默/夸张",
+          "scores": {
+            "Humor": 90,
+            "Emotionality": 50,
+            "Rationality": 10,
+            "Pace": 80,
+            "Spontaneity": 80
+          }
+        },
+        {
+          "id": "q1d",
+          "text": "平和稳重",
+          "scores": {
+            "Humor": 5,
+            "Emotionality": 50,
+            "Rationality": 50,
+            "Pace": 20,
+            "Spontaneity": 20
+          }
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "面对镜头，你的舒适度？",
+      "options": [
+        {
+          "id": "q2a",
+          "text": "非常自在",
+          "scores": {
+            "Humor": 40,
+            "Emotionality": 40,
+            "Rationality": 30,
+            "Pace": 60,
+            "Spontaneity": 90
+          }
+        },
+        {
+          "id": "q2b",
+          "text": "略微紧张",
+          "scores": {
+            "Humor": 20,
+            "Emotionality": 40,
+            "Rationality": 50,
+            "Pace": 40,
+            "Spontaneity": 50
+          }
+        },
+        {
+          "id": "q2c",
+          "text": "倾向背台词",
+          "scores": {
+            "Humor": 10,
+            "Emotionality": 30,
+            "Rationality": 70,
+            "Pace": 30,
+            "Spontaneity": 20
+          }
+        },
+        {
+          "id": "q2d",
+          "text": "不太习惯",
+          "scores": {
+            "Humor": 5,
+            "Emotionality": 20,
+            "Rationality": 60,
+            "Pace": 20,
+            "Spontaneity": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "视频节奏偏好？",
+      "options": [
+        {
+          "id": "q3a",
+          "text": "快节奏",
+          "scores": {
+            "Humor": 60,
+            "Emotionality": 50,
+            "Rationality": 20,
+            "Pace": 90,
+            "Spontaneity": 70
+          }
+        },
+        {
+          "id": "q3b",
+          "text": "中速",
+          "scores": {
+            "Humor": 30,
+            "Emotionality": 50,
+            "Rationality": 50,
+            "Pace": 50,
+            "Spontaneity": 50
+          }
+        },
+        {
+          "id": "q3c",
+          "text": "慢讲解",
+          "scores": {
+            "Humor": 10,
+            "Emotionality": 40,
+            "Rationality": 80,
+            "Pace": 20,
+            "Spontaneity": 30
+          }
+        },
+        {
+          "id": "q3d",
+          "text": "场景铺陈",
+          "scores": {
+            "Humor": 20,
+            "Emotionality": 80,
+            "Rationality": 30,
+            "Pace": 30,
+            "Spontaneity": 40
+          }
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "希望给人印象？",
+      "options": [
+        {
+          "id": "q4a",
+          "text": "有趣/亲切",
+          "scores": {
+            "Humor": 80,
+            "Emotionality": 60,
+            "Rationality": 20,
+            "Pace": 60,
+            "Spontaneity": 60
+          }
+        },
+        {
+          "id": "q4b",
+          "text": "专业/靠谱",
+          "scores": {
+            "Humor": 10,
+            "Emotionality": 30,
+            "Rationality": 90,
+            "Pace": 40,
+            "Spontaneity": 30
+          }
+        },
+        {
+          "id": "q4c",
+          "text": "温暖/可信",
+          "scores": {
+            "Humor": 20,
+            "Emotionality": 80,
+            "Rationality": 40,
+            "Pace": 30,
+            "Spontaneity": 40
+          }
+        },
+        {
+          "id": "q4d",
+          "text": "真诚/接地气",
+          "scores": {
+            "Humor": 20,
+            "Emotionality": 70,
+            "Rationality": 40,
+            "Pace": 30,
+            "Spontaneity": 50
+          }
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "能接受的改动幅度？",
+      "options": [
+        {
+          "id": "q5a",
+          "text": "大幅尝试",
+          "scores": {
+            "Humor": 40,
+            "Emotionality": 40,
+            "Rationality": 40,
+            "Pace": 40,
+            "Spontaneity": 80
+          }
+        },
+        {
+          "id": "q5b",
+          "text": "中度尝试",
+          "scores": {
+            "Humor": 30,
+            "Emotionality": 30,
+            "Rationality": 50,
+            "Pace": 50,
+            "Spontaneity": 60
+          }
+        },
+        {
+          "id": "q5c",
+          "text": "轻微调整",
+          "scores": {
+            "Humor": 10,
+            "Emotionality": 20,
+            "Rationality": 60,
+            "Pace": 30,
+            "Spontaneity": 30
+          }
+        },
+        {
+          "id": "q5d",
+          "text": "不愿改变",
+          "scores": {
+            "Humor": 5,
+            "Emotionality": 10,
+            "Rationality": 70,
+            "Pace": 20,
+            "Spontaneity": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "形象训练投入？",
+      "options": [
+        {
+          "id": "q6a",
+          "text": "高",
+          "scores": {
+            "Humor": 40,
+            "Emotionality": 40,
+            "Rationality": 30,
+            "Pace": 60,
+            "Spontaneity": 80
+          }
+        },
+        {
+          "id": "q6b",
+          "text": "中",
+          "scores": {
+            "Humor": 30,
+            "Emotionality": 30,
+            "Rationality": 50,
+            "Pace": 40,
+            "Spontaneity": 50
+          }
+        },
+        {
+          "id": "q6c",
+          "text": "低",
+          "scores": {
+            "Humor": 15,
+            "Emotionality": 20,
+            "Rationality": 60,
+            "Pace": 30,
+            "Spontaneity": 30
+          }
+        },
+        {
+          "id": "q6d",
+          "text": "极低",
+          "scores": {
+            "Humor": 5,
+            "Emotionality": 10,
+            "Rationality": 70,
+            "Pace": 20,
+            "Spontaneity": 10
+          }
+        }
+      ]
+    }
+  ],
+  "post_processing": {
+    "method": "sum_then_normalize",
+    "weight_questionnaire": 0.4
+  }
+}

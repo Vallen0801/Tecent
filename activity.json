@@ -1,0 +1,21 @@
+{
+  "activity_id": "act_1777052783",
+  "type": "reply_lottery",
+  "title": "评论抽奖-试用",
+  "trigger": {
+    "time_window_hours": 1,
+    "keyword": "#我想试",
+    "start_time": "2026-04-25T01:46:23.125706"
+  },
+  "reward": {
+    "type": "sample",
+    "quantity": 5
+  },
+  "eligibility": {
+    "min_followers": 0
+  },
+  "automation": {
+    "auto_collect": true
+  },
+  "status": "active"
+}
